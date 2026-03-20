@@ -3,7 +3,20 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>EXPLOSIVE AI — The Ultimate AI Tool Universe</title>
+<title>EXPLOSIVE AI — Best AI Writing & Video Tools 2025 | Pricing, Reviews & Comparisons</title>
+<meta name="description" content="The most complete interactive guide to AI writing and video tools. Compare ChatGPT vs Claude, Sora vs Runway — with real pricing, deep-dive comparisons, a tool finder quiz, and expert verdicts on every tool.">
+<meta name="keywords" content="AI writing tools, AI video tools, ChatGPT, Claude, Sora, HeyGen, Jasper AI, Surfer SEO, best AI tools 2025, AI tools comparison, AI tools pricing">
+<meta name="author" content="Explosive AI">
+<meta property="og:title" content="EXPLOSIVE AI — Best AI Writing & Video Tools 2025">
+<meta property="og:description" content="Every AI tool ranked, priced, and compared head-to-head. Real expert verdicts. Interactive tool finder quiz. Find your perfect AI stack in minutes.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://explosive-ai.com/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="EXPLOSIVE AI — Best AI Tools 2025">
+<meta name="twitter:description" content="Compare every major AI writing and video tool with real pricing, deep-dives, and expert verdicts. Free interactive guide.">
+<!-- Google Analytics — replace G-XXXXXXXXXX with your real ID from analytics.google.com -->
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XXXXXXXXXX');</script> -->
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:ital,wght@0,300;0,400;0,600;0,700;0,900;1,300&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <style>
 :root{
@@ -446,12 +459,114 @@ footer{border-top:1px solid var(--border2);padding:40px 52px;display:flex;justif
 .verdict-box{background:linear-gradient(135deg,rgba(255,60,0,.1),rgba(255,130,0,.05));border:1px solid rgba(255,80,0,.25);border-radius:4px;padding:20px 24px;}
 .verdict-title{font-family:'Bebas Neue',sans-serif;font-size:1.5rem;letter-spacing:2px;color:var(--fire2);margin-bottom:8px;}
 .verdict-box p{font-size:.9rem;font-weight:300;color:rgba(255,255,255,.8);line-height:1.7;}
+
+/* ── DAILY PULSE BANNER ── */
+#daily-pulse{background:linear-gradient(135deg,rgba(255,60,0,.12),rgba(255,180,0,.08));border-bottom:1px solid rgba(255,140,0,.2);padding:12px 52px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;position:relative;z-index:150;}
+.pulse-left{display:flex;align-items:center;gap:14px;}
+.pulse-dot{width:8px;height:8px;border-radius:50%;background:var(--fire2);animation:dot-pulse 1.5s ease-in-out infinite;flex-shrink:0;}
+.pulse-label{font-size:.62rem;letter-spacing:4px;text-transform:uppercase;color:var(--fire2);}
+.pulse-tool{font-family:'Bebas Neue',sans-serif;font-size:1.2rem;letter-spacing:2px;color:var(--white);}
+.pulse-verdict{font-size:.82rem;font-weight:300;color:var(--muted);font-style:italic;max-width:420px;}
+.pulse-right{display:flex;align-items:center;gap:16px;}
+.pulse-countdown{font-family:'Space Mono',monospace;font-size:.8rem;color:var(--fire3);display:flex;align-items:center;gap:6px;}
+.pulse-cd-label{font-size:.58rem;letter-spacing:2px;text-transform:uppercase;color:var(--muted);}
+.pulse-btn{font-size:.62rem;letter-spacing:3px;text-transform:uppercase;background:rgba(255,140,0,.1);border:1px solid rgba(255,140,0,.25);color:var(--fire2);padding:7px 16px;border-radius:2px;cursor:pointer;transition:all .2s;font-family:'Barlow Condensed',sans-serif;white-space:nowrap;}
+.pulse-btn:hover{background:rgba(255,140,0,.2);border-color:var(--fire2);}
+
+/* ── EXPLOSIVE VERDICT BADGE ── */
+.explosive-verdict{margin:12px 0 0;background:rgba(255,180,0,.06);border:1px solid rgba(255,180,0,.15);border-left:3px solid var(--fire3);padding:8px 12px;border-radius:0 3px 3px 0;}
+.ev-label{font-size:.52rem;letter-spacing:3px;text-transform:uppercase;color:var(--fire3);margin-bottom:3px;}
+.ev-text{font-size:.82rem;font-weight:400;color:rgba(255,255,255,.75);line-height:1.4;font-style:italic;}
+
+/* ── AFFILIATE BADGE ── */
+.aff-badge{display:inline-flex;align-items:center;gap:5px;font-size:.55rem;letter-spacing:2px;text-transform:uppercase;background:rgba(0,255,136,.07);color:var(--green);border:1px solid rgba(0,255,136,.18);padding:3px 9px;border-radius:10px;margin-left:6px;}
+
+/* ── USER TYPE SECTION ── */
+#user-types{padding:80px 52px 100px;}
+.user-types-inner{max-width:1300px;margin-inline:auto;}
+.user-type-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;margin-top:48px;}
+@media(max-width:900px){.user-type-grid{grid-template-columns:1fr 1fr;}}
+@media(max-width:560px){.user-type-grid{grid-template-columns:1fr;}}
+.ut-card{background:var(--card);border:1px solid var(--border2);padding:36px 30px;position:relative;overflow:hidden;transition:all .3s;cursor:pointer;}
+.ut-card::after{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--fire1),var(--fire2));transform:scaleX(0);transition:transform .4s;}
+.ut-card:hover{border-color:rgba(255,80,0,.4);transform:translateY(-5px);}.ut-card:hover::after{transform:scaleX(1);}
+.ut-emoji{font-size:2.8rem;margin-bottom:16px;display:block;}
+.ut-title{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:2px;margin-bottom:6px;}
+.ut-sub{font-size:.72rem;letter-spacing:3px;text-transform:uppercase;color:var(--fire2);margin-bottom:12px;}
+.ut-desc{font-size:.88rem;font-weight:300;color:var(--muted);line-height:1.6;margin-bottom:18px;}
+.ut-tools{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:16px;}
+.ut-tool-chip{font-size:.6rem;letter-spacing:2px;text-transform:uppercase;border:1px solid rgba(255,255,255,.1);padding:5px 12px;border-radius:2px;color:rgba(255,255,255,.45);transition:all .2s;}
+.ut-card:hover .ut-tool-chip{border-color:rgba(255,80,0,.3);color:var(--muted);}
+.ut-budget{font-family:'Space Mono',monospace;font-size:.72rem;color:var(--green);display:flex;align-items:center;gap:6px;}
+.ut-budget::before{content:'💰';}
+.ut-cta{margin-top:18px;font-size:.62rem;letter-spacing:3px;text-transform:uppercase;color:var(--fire2);display:flex;align-items:center;gap:6px;cursor:pointer;width:fit-content;}
+.ut-cta::after{content:'→';transition:transform .2s;}
+.ut-card:hover .ut-cta::after{transform:translateX(4px);}
+
+/* ── SUBMIT TOOL SECTION ── */
+#submit-tool{padding:60px 52px;background:linear-gradient(135deg,rgba(0,229,255,.03),rgba(255,80,0,.03));}
+.submit-inner{max-width:1300px;margin-inline:auto;}
+.submit-card{background:var(--card);border:1px solid var(--border2);padding:52px 56px;display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;}
+@media(max-width:800px){.submit-card{grid-template-columns:1fr;gap:32px;}}
+.submit-info h3{font-family:'Bebas Neue',sans-serif;font-size:2.8rem;letter-spacing:2px;margin-bottom:14px;line-height:1;}
+.submit-info h3 em{font-style:normal;color:var(--fire2);}
+.submit-info p{font-size:.95rem;font-weight:300;color:var(--muted);line-height:1.65;margin-bottom:20px;}
+.submit-perks{display:flex;flex-direction:column;gap:10px;}
+.submit-perk{display:flex;align-items:flex-start;gap:10px;font-size:.88rem;font-weight:300;color:rgba(255,255,255,.6);}
+.submit-perk::before{content:'✓';color:var(--fire2);flex-shrink:0;font-weight:700;}
+.submit-form{display:flex;flex-direction:column;gap:14px;}
+.sf-field{display:flex;flex-direction:column;gap:6px;}
+.sf-label{font-size:.65rem;letter-spacing:3px;text-transform:uppercase;color:var(--muted);}
+.sf-input{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);color:var(--white);font-family:'Barlow Condensed',sans-serif;font-size:1rem;letter-spacing:.5px;padding:13px 16px;border-radius:2px;outline:none;transition:border-color .2s;width:100%;}
+.sf-input::placeholder{color:var(--muted);}.sf-input:focus{border-color:var(--fire2);}
+.sf-select{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);color:var(--white);font-family:'Barlow Condensed',sans-serif;font-size:1rem;padding:13px 16px;border-radius:2px;outline:none;width:100%;cursor:pointer;}
+.sf-select option{background:#111;}
+.sf-submit{background:linear-gradient(135deg,var(--fire1),var(--fire2));color:#000;font-family:'Barlow Condensed',sans-serif;font-size:.82rem;font-weight:700;letter-spacing:3px;text-transform:uppercase;padding:16px;border:none;border-radius:2px;cursor:pointer;transition:all .25s;box-shadow:0 0 20px rgba(255,60,0,.2);}
+.sf-submit:hover{box-shadow:0 4px 28px rgba(255,60,0,.5);transform:translateY(-2px);}
+.sf-success{display:none;background:rgba(0,255,136,.06);border:1px solid rgba(0,255,136,.2);padding:16px 20px;border-radius:3px;color:var(--green);font-size:.9rem;letter-spacing:1px;text-align:center;animation:fade-up .4s ease;}
+
+/* ── TL;DR SUMMARIES ── */
+.tldr-box{background:rgba(0,229,255,.03);border:1px solid rgba(0,229,255,.12);border-left:3px solid var(--cyan);padding:20px 24px;border-radius:0 4px 4px 0;margin-top:48px;}
+.tldr-label{font-size:.6rem;letter-spacing:4px;text-transform:uppercase;color:var(--cyan);margin-bottom:10px;display:flex;align-items:center;gap:8px;}
+.tldr-label::before{content:'';width:20px;height:1px;background:var(--cyan);}
+.tldr-text{font-size:.9rem;font-weight:300;color:rgba(255,255,255,.6);line-height:1.7;}
+.tldr-stat{font-weight:700;color:var(--white);}
+
+/* ── HOVER QUICK PREVIEW ── */
+.tool-card:hover .tc-desc{color:rgba(255,255,255,.75);}
+.tool-card{transform:translateY(0);box-shadow:0 0 0 rgba(255,80,0,0);}
+.tool-card:hover{transform:translateY(-6px) scale(1.01);box-shadow:0 12px 40px rgba(255,60,0,.15);}
+
+/* ── AFFILIATE DISCLOSURE ── */
+.aff-disclosure{font-size:.7rem;color:var(--muted);letter-spacing:1px;text-align:center;padding:14px 52px;border-top:1px solid var(--border2);line-height:1.6;}
+.aff-disclosure a{color:var(--fire2);text-decoration:none;}
+
 </style>
 </head>
 <body>
 
 <div id="cursor"></div>
 <div id="cursor-ring"></div>
+
+
+<!-- DAILY AI PULSE BANNER -->
+<div id="daily-pulse">
+  <div class="pulse-left">
+    <div class="pulse-dot"></div>
+    <div>
+      <div class="pulse-label">⚡ Today's Featured Tool</div>
+      <div class="pulse-tool" id="pulseToolName">Loading...</div>
+      <div class="pulse-verdict" id="pulseVerdict"></div>
+    </div>
+  </div>
+  <div class="pulse-right">
+    <div>
+      <div class="pulse-cd-label">Next tool drops in</div>
+      <div class="pulse-countdown" id="pulseCountdown">00:00:00</div>
+    </div>
+    <button class="pulse-btn" id="pulseCTA" onclick="">See Full Review →</button>
+  </div>
+</div>
 
 <!-- NAV -->
 <nav id="mainNav">
@@ -465,6 +580,7 @@ footer{border-top:1px solid var(--border2);padding:40px 52px;display:flex;justif
     <span class="nav-link" onclick="goTo('calculator')">Calculator</span>
     <span class="nav-link" onclick="goTo('discover')">Discover</span>
     <span class="nav-link" onclick="goTo('finder')">Quiz</span>
+    <span class="nav-link" onclick="goTo('submit-tool')" style="color:var(--fire2);">+ List Tool</span>
     <button class="nav-pill" onclick="goTo('cta')">Get Started 🔥</button>
   </div>
 </nav>
@@ -630,7 +746,11 @@ footer{border-top:1px solid var(--border2);padding:40px 52px;display:flex;justif
           </div>
           <p class="tc-desc">The industry titan. Versatile across creative writing, email, code, analysis, and any content format imaginable.</p>
           <div class="tc-more"><strong>Best for:</strong> Blog posts, emails, ad copy, scripts, code<br><strong>Free tier:</strong> Yes (GPT-3.5 free, GPT-4o limited)<br><strong>Pricing:</strong> $20/mo Plus · $25/mo Team<br><strong>Context window:</strong> 128K tokens<br><strong>Standout:</strong> Plugin ecosystem, DALL-E integration, browsing</div>
-          <div class="tc-stat">200M+ users monthly</div>
+                    <div class="explosive-verdict">
+            <div class="ev-label">💥 Explosive Verdict</div>
+            <div class="ev-text">The most versatile AI writer alive — if you only pick one tool, this is it.</div>
+          </div>
+<div class="tc-stat">200M+ users monthly</div>
           <div class="tc-btns">
             <button class="tc-details-btn" onclick="toggleCard(this)">Details ▾</button>
             <button class="tc-why-btn" onclick="openModal('chatgpt')"><span>🔥 Know Why & How</span></button>
@@ -647,7 +767,11 @@ footer{border-top:1px solid var(--border2);padding:40px 52px;display:flex;justif
           </div>
           <p class="tc-desc">Unmatched context window and reasoning depth. The professional's choice for documents, research, and nuanced writing.</p>
           <div class="tc-more"><strong>Best for:</strong> Research, white papers, technical docs, deep analysis<br><strong>Free tier:</strong> Yes (claude.ai free)<br><strong>Pricing:</strong> $20/mo Pro · $30/mo Teams<br><strong>Context window:</strong> 200K tokens<br><strong>Standout:</strong> Refuses to hallucinate, best tone matching</div>
-          <div class="tc-stat">200K token context window</div>
+                    <div class="explosive-verdict">
+            <div class="ev-label">💥 Explosive Verdict</div>
+            <div class="ev-text">Beats every rival on long documents and honesty — it won\'t make things up.</div>
+          </div>
+<div class="tc-stat">200K token context window</div>
           <div class="tc-btns">
             <button class="tc-details-btn" onclick="toggleCard(this)">Details ▾</button>
             <button class="tc-why-btn" onclick="openModal('claude')"><span>🔥 Know Why & How</span></button>
@@ -664,7 +788,11 @@ footer{border-top:1px solid var(--border2);padding:40px 52px;display:flex;justif
           </div>
           <p class="tc-desc">Built for marketing teams — brand voice training, campaign workflows, and consistency across every writer on your team.</p>
           <div class="tc-more"><strong>Best for:</strong> Ad campaigns, brand messaging, agency work<br><strong>Free tier:</strong> 7-day trial<br><strong>Pricing:</strong> $49/mo Creator · $125/mo Teams<br><strong>Standout:</strong> Brand voice AI, 70+ templates, Surfer SEO integration</div>
-          <div class="tc-stat">70+ content templates</div>
+                    <div class="explosive-verdict">
+            <div class="ev-label">💥 Explosive Verdict</div>
+            <div class="ev-text">Worth every penny if you have a team; overkill if you're flying solo.</div>
+          </div>
+<div class="tc-stat">70+ content templates</div>
           <div class="tc-btns">
             <button class="tc-details-btn" onclick="toggleCard(this)">Details ▾</button>
             <button class="tc-why-btn" onclick="openModal('jasper')"><span>🔥 Know Why & How</span></button>
@@ -681,7 +809,11 @@ footer{border-top:1px solid var(--border2);padding:40px 52px;display:flex;justif
           </div>
           <p class="tc-desc">Zero friction, instant results. GTM workflows, email sequences, and social captions in seconds. Best free tier of any tool.</p>
           <div class="tc-more"><strong>Best for:</strong> Cold emails, product copy, social media batching<br><strong>Free tier:</strong> Yes (2,000 words/month)<br><strong>Pricing:</strong> $49/mo Pro · Custom Enterprise<br><strong>Standout:</strong> Go-To-Market workflow automation</div>
-          <div class="tc-stat">90+ workflow templates</div>
+                    <div class="explosive-verdict">
+            <div class="ev-label">💥 Explosive Verdict</div>
+            <div class="ev-text">Fastest way to kill writer's block — results in 30 seconds, not 30 minutes.</div>
+          </div>
+<div class="tc-stat">90+ workflow templates</div>
           <div class="tc-btns">
             <button class="tc-details-btn" onclick="toggleCard(this)">Details ▾</button>
             <button class="tc-why-btn" onclick="openModal('copyai')"><span>🔥 Know Why & How</span></button>
@@ -698,7 +830,11 @@ footer{border-top:1px solid var(--border2);padding:40px 52px;display:flex;justif
           </div>
           <p class="tc-desc">AI embedded directly in your docs. No copy-paste, no tab-switching — just ask and your document improves instantly.</p>
           <div class="tc-more"><strong>Best for:</strong> Meeting notes, doc polish, team wikis<br><strong>Free tier:</strong> Limited (20 uses)<br><strong>Pricing:</strong> $8/mo add-on<br><strong>Standout:</strong> Ask AI about your own docs and knowledge base</div>
-          <div class="tc-stat">Works inside your workspace</div>
+                    <div class="explosive-verdict">
+            <div class="ev-label">💥 Explosive Verdict</div>
+            <div class="ev-text">Only makes sense if you live in Notion — but then it\'s genuinely magical.</div>
+          </div>
+<div class="tc-stat">Works inside your workspace</div>
           <div class="tc-btns">
             <button class="tc-details-btn" onclick="toggleCard(this)">Details ▾</button>
             <button class="tc-why-btn" onclick="openModal('notion')"><span>🔥 Know Why & How</span></button>
@@ -715,7 +851,11 @@ footer{border-top:1px solid var(--border2);padding:40px 52px;display:flex;justif
           </div>
           <p class="tc-desc">Real-time SERP analysis as you type. Write and optimize simultaneously — the only tool that guarantees rankings from first draft.</p>
           <div class="tc-more"><strong>Best for:</strong> SEO blogs, content strategy, ranking at scale<br><strong>Free tier:</strong> No<br><strong>Pricing:</strong> $89/mo Essential · $129/mo Scale<br><strong>Standout:</strong> Live NLP Content Score + Topical Authority Map</div>
-          <div class="tc-stat">Outranks 94% of competitors</div>
+                    <div class="explosive-verdict">
+            <div class="ev-label">💥 Explosive Verdict</div>
+            <div class="ev-text">The only tool that shows you in real-time whether your article will rank.</div>
+          </div>
+<div class="tc-stat">Outranks 94% of competitors</div>
           <div class="tc-btns">
             <button class="tc-details-btn" onclick="toggleCard(this)">Details ▾</button>
             <button class="tc-why-btn" onclick="openModal('surfer')"><span>🔥 Know Why & How</span></button>
@@ -732,7 +872,11 @@ footer{border-top:1px solid var(--border2);padding:40px 52px;display:flex;justif
           </div>
           <p class="tc-desc">The best budget Jasper alternative — real-time web search via Chatsonic, 30+ languages, 10,000 free words to start.</p>
           <div class="tc-more"><strong>Best for:</strong> Startups, freelancers, multilingual brands<br><strong>Free tier:</strong> Yes (10,000 words)<br><strong>Pricing:</strong> From $16/mo<br><strong>Standout:</strong> Chatsonic searches the web in real-time</div>
-          <div class="tc-stat">10,000 free words on signup</div>
+                    <div class="explosive-verdict">
+            <div class="ev-label">💥 Explosive Verdict</div>
+            <div class="ev-text">Jasper quality at a third of the price — the best kept secret in AI writing.</div>
+          </div>
+<div class="tc-stat">10,000 free words on signup</div>
           <div class="tc-btns">
             <button class="tc-details-btn" onclick="toggleCard(this)">Details ▾</button>
             <button class="tc-why-btn" onclick="openModal('writesonic')"><span>🔥 Know Why & How</span></button>
@@ -749,7 +893,11 @@ footer{border-top:1px solid var(--border2);padding:40px 52px;display:flex;justif
           </div>
           <p class="tc-desc">The content brief king. Analyzes all top-20 SERP results and builds research-backed outlines automatically for every article.</p>
           <div class="tc-more"><strong>Best for:</strong> Content briefs, agency handoffs, SEO research<br><strong>Free tier:</strong> 5 queries trial<br><strong>Pricing:</strong> From $15/mo<br><strong>Standout:</strong> Deepest competitor content gap analysis</div>
-          <div class="tc-stat">Analyzes top 20 SERP results</div>
+                    <div class="explosive-verdict">
+            <div class="ev-label">💥 Explosive Verdict</div>
+            <div class="ev-text">Where serious SEO starts — use it to research before any other tool writes.</div>
+          </div>
+<div class="tc-stat">Analyzes top 20 SERP results</div>
           <div class="tc-btns">
             <button class="tc-details-btn" onclick="toggleCard(this)">Details ▾</button>
             <button class="tc-why-btn" onclick="openModal('frase')"><span>🔥 Know Why & How</span></button>
@@ -849,6 +997,123 @@ footer{border-top:1px solid var(--border2);padding:40px 52px;display:flex;justif
         </div>
 
       </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="fire-div"><span>👥</span></div>
+
+<!-- USER TYPE CATEGORIES -->
+<div id="user-types">
+  <div class="user-types-inner">
+    <div class="reveal">
+      <div class="sec-label">Find Your Fit</div>
+      <h2 class="sec-title">Pick Your <em>Pack</em></h2>
+      <p class="sec-desc">Not all AI tools are for everyone. Pick your category and see exactly which tools match your situation.</p>
+    </div>
+    <div class="user-type-grid">
+
+      <div class="ut-card reveal" onclick="openUserTypeModal('solopreneur')">
+        <span class="ut-emoji">🚀</span>
+        <div class="ut-title">The Solopreneur</div>
+        <div class="ut-sub">Starter Pack</div>
+        <p class="ut-desc">You run everything yourself. You need tools that are fast, affordable, and have zero learning curve. Every minute counts.</p>
+        <div class="ut-tools">
+          <span class="ut-tool-chip">ChatGPT</span>
+          <span class="ut-tool-chip">Copy.ai</span>
+          <span class="ut-tool-chip">Opus Clip</span>
+          <span class="ut-tool-chip">Writesonic</span>
+        </div>
+        <div class="ut-budget">Under $50/month total</div>
+        <div class="ut-cta">See the Stack</div>
+      </div>
+
+      <div class="ut-card reveal" onclick="openUserTypeModal('artist')">
+        <span class="ut-emoji">🎨</span>
+        <div class="ut-title">The Prompt Artist</div>
+        <div class="ut-sub">Creative Galaxy</div>
+        <p class="ut-desc">You care about aesthetics, originality, and pushing the limits of what AI can create. Quality over speed, always.</p>
+        <div class="ut-tools">
+          <span class="ut-tool-chip">Sora</span>
+          <span class="ut-tool-chip">Runway Gen-3</span>
+          <span class="ut-tool-chip">Midjourney</span>
+          <span class="ut-tool-chip">ElevenLabs</span>
+        </div>
+        <div class="ut-budget">$50–$200/month</div>
+        <div class="ut-cta">See the Stack</div>
+      </div>
+
+      <div class="ut-card reveal" onclick="openUserTypeModal('student')">
+        <span class="ut-emoji">📚</span>
+        <div class="ut-title">The Student</div>
+        <div class="ut-sub">Study Orbit</div>
+        <p class="ut-desc">You need research help, essay drafts, note summaries, and citation assistance — mostly for free or very cheap.</p>
+        <div class="ut-tools">
+          <span class="ut-tool-chip">Claude (Free)</span>
+          <span class="ut-tool-chip">ChatGPT (Free)</span>
+          <span class="ut-tool-chip">Notion AI</span>
+          <span class="ut-tool-chip">Frase.io</span>
+        </div>
+        <div class="ut-budget">$0–$20/month</div>
+        <div class="ut-cta">See the Stack</div>
+      </div>
+
+      <div class="ut-card reveal" onclick="openUserTypeModal('marketer')">
+        <span class="ut-emoji">📣</span>
+        <div class="ut-title">The Marketer</div>
+        <div class="ut-sub">Growth Engine</div>
+        <p class="ut-desc">You need content at volume — ads, emails, social captions, landing pages — all on-brand, all consistent, all fast.</p>
+        <div class="ut-tools">
+          <span class="ut-tool-chip">Jasper AI</span>
+          <span class="ut-tool-chip">Copy.ai</span>
+          <span class="ut-tool-chip">Surfer SEO</span>
+          <span class="ut-tool-chip">HeyGen</span>
+        </div>
+        <div class="ut-budget">$100–$250/month</div>
+        <div class="ut-cta">See the Stack</div>
+      </div>
+
+      <div class="ut-card reveal" onclick="openUserTypeModal('youtuber')">
+        <span class="ut-emoji">🎬</span>
+        <div class="ut-title">The Content Creator</div>
+        <div class="ut-sub">Video Universe</div>
+        <p class="ut-desc">YouTube, TikTok, Instagram Reels — you need a system that turns one recording into 30 pieces of content automatically.</p>
+        <div class="ut-tools">
+          <span class="ut-tool-chip">Opus Clip</span>
+          <span class="ut-tool-chip">HeyGen</span>
+          <span class="ut-tool-chip">Pictory AI</span>
+          <span class="ut-tool-chip">ChatGPT</span>
+        </div>
+        <div class="ut-budget">$30–$80/month</div>
+        <div class="ut-cta">See the Stack</div>
+      </div>
+
+      <div class="ut-card reveal" onclick="openUserTypeModal('agency')">
+        <span class="ut-emoji">🏢</span>
+        <div class="ut-title">The Agency</div>
+        <div class="ut-sub">Power Stack</div>
+        <p class="ut-desc">You have clients, deadlines, and brand guidelines. You need enterprise-grade tools with collaboration, white-labeling, and scale.</p>
+        <div class="ut-tools">
+          <span class="ut-tool-chip">Jasper Teams</span>
+          <span class="ut-tool-chip">Surfer Scale</span>
+          <span class="ut-tool-chip">HeyGen Business</span>
+          <span class="ut-tool-chip">Claude Teams</span>
+        </div>
+        <div class="ut-budget">$250–$500/month</div>
+        <div class="ut-cta">See the Stack</div>
+      </div>
+
+    </div>
+
+    <!-- TL;DR WRITING SUMMARY -->
+    <div class="tldr-box reveal" style="margin-top:48px;">
+      <div class="tldr-label">TL;DR — State of AI Writing 2025</div>
+      <p class="tldr-text">
+        <span class="tldr-stat">Over 65% of professional content creators</span> now use AI tools for at least their first draft, up from 18% in 2023.
+        <span class="tldr-stat">ChatGPT and Claude dominate</span> general-purpose writing, while specialized tools like Surfer SEO and Jasper lead in marketing and SEO workflows.
+        The average AI writing stack costs <span class="tldr-stat">under $60/month</span> — less than a single hour of professional copywriter time — and produces output at roughly <span class="tldr-stat">10× human speed</span>.
+      </p>
     </div>
   </div>
 </div>
@@ -1241,7 +1506,7 @@ footer{border-top:1px solid var(--border2);padding:40px 52px;display:flex;justif
       <div class="banana-icon">🍌</div>
       <div class="banana-text">
         <h4>Yes, You Can Make Nano Banana Videos</h4>
-        <p>A "nano banana video" is a 5-second product promo for the world's tiniest fruit brand. Here's exactly how to make one with AI tools in under 10 minutes — for about $0.12.</p>
+        <p>A "nano banana video" is a 5-second product promo for the world's tiniest fruit brand. Here\'s exactly how to make one with AI tools in under 10 minutes — for about $0.12.</p>
         <div class="banana-pill">Click to see the step-by-step workflow ↓</div>
       </div>
       <div class="banana-expanded">
@@ -1507,6 +1772,63 @@ footer{border-top:1px solid var(--border2);padding:40px 52px;display:flex;justif
   </div>
 </div>
 
+
+<div class="fire-div"><span>📩</span></div>
+
+<!-- SUBMIT A TOOL -->
+<div id="submit-tool">
+  <div class="submit-inner">
+    <div class="submit-card reveal">
+      <div class="submit-info">
+        <h3>List Your <em>Tool</em><br>Here</h3>
+        <p>Built an AI tool and want it featured on Explosive AI? We review every submission and feature the best ones — free for now, with premium placement available for serious launches.</p>
+        <div class="submit-perks">
+          <div class="submit-perk">Free basic listing in the right category</div>
+          <div class="submit-perk">Featured placement in the top row — $49 one-time</div>
+          <div class="submit-perk">Homepage spotlight for 7 days — $99</div>
+          <div class="submit-perk">Included in our weekly newsletter — $29</div>
+          <div class="submit-perk">Response within 48 hours guaranteed</div>
+        </div>
+      </div>
+      <div>
+        <div class="submit-form" id="submitForm">
+          <div class="sf-field">
+            <label class="sf-label">Tool Name</label>
+            <input class="sf-input" id="sfName" placeholder="e.g. SuperWriter AI" type="text">
+          </div>
+          <div class="sf-field">
+            <label class="sf-label">Your Email</label>
+            <input class="sf-input" id="sfEmail" placeholder="founder@yourtool.com" type="email">
+          </div>
+          <div class="sf-field">
+            <label class="sf-label">Tool Website</label>
+            <input class="sf-input" id="sfUrl" placeholder="https://yourtool.com" type="url">
+          </div>
+          <div class="sf-field">
+            <label class="sf-label">Category</label>
+            <select class="sf-select" id="sfCat">
+              <option value="">Select a category...</option>
+              <option>AI Writing</option>
+              <option>AI Video</option>
+              <option>AI Image Generation</option>
+              <option>AI Audio & Voice</option>
+              <option>AI Coding</option>
+              <option>AI SEO</option>
+              <option>AI Data & Analytics</option>
+              <option>AI Design</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <button class="sf-submit" onclick="submitTool()">🚀 Submit My Tool</button>
+        </div>
+        <div class="sf-success" id="submitSuccess">
+          ✅ Submission received! We'll review your tool and get back to you within 48 hours.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- CTA -->
 <div id="cta">
   <div class="cta-glow"></div>
@@ -1536,6 +1858,8 @@ footer{border-top:1px solid var(--border2);padding:40px 52px;display:flex;justif
   </div>
   <div class="ft-right">© 2025 Explosive AI<br>The Future Is Automated</div>
 </footer>
+<div class="aff-disclosure">⚠️ <strong>Affiliate Disclosure:</strong> Some links on this page are affiliate links. If you click and purchase, we may earn a commission at no extra cost to you. This helps keep Explosive AI free. We only recommend tools we genuinely believe in. <a href="mailto:contact@explosive-ai.com">Contact us</a> · <a href="#submit-tool">List your tool</a></div>
+
 
 <!-- MODAL -->
 <div class="modal-ov" id="modalOv" onclick="closeModalOut(event)">
@@ -1707,7 +2031,7 @@ const MODALS={
   copyai:{icon:'🔥',name:'Copy.ai',tag:'Fastest tool for sales copy & short-form content',body:`<div class="ms"><div class="ms-title">Why Copy.ai beats Jasper for solo creators</div><div class="vs-grid"><div class="vs-card vs-w"><div class="vs-label">✦ Copy.ai Wins</div><div class="vs-name">Copy.ai</div><ul class="vs-pts"><li>Generous free tier (2,000 words/month) vs Jasper's paywall</li><li>GTM workflows automate entire sales funnels in minutes</li><li>Social media batch creation — 10 captions in 30 seconds</li><li>Ecommerce product description generator is class-leading</li><li>No learning curve — results on first try</li></ul></div><div class="vs-card vs-l"><div class="vs-label">Jasper's weaknesses here</div><div class="vs-name">Jasper</div><ul class="vs-pts"><li>No meaningful free tier before paying $49/month</li><li>Steeper learning curve for quick one-off copy</li><li>Overkill and overpriced for single creators</li><li>Less intuitive for rapid social content batching</li></ul></div></div></div><div class="ms"><div class="ms-title">Best Use Cases</div><div class="use-pills"><span class="use-pill">Sales Emails</span><span class="use-pill">Social Captions</span><span class="use-pill">Product Descriptions</span><span class="use-pill">Ad Headlines</span><span class="use-pill">CTA Writing</span></div></div><div class="ms"><div class="ms-title">Pro Tip</div><div class="pro-tip-box"><div class="pro-tip-lbl">💡 Insider</div><p>Use the GTM workflow section — not just the templates. Input your product, target audience, and pain point, and it auto-generates your full sales funnel: cold email + LinkedIn message + objection handlers + follow-ups. Most users never find this.</p></div></div><div class="ms"><div class="ms-title">Final Verdict</div><div class="verdict-box"><div class="verdict-title">🏆 Best for Sales & Short-Form Content, Fast</div><p>Open Copy.ai when you need results in the next 5 minutes. Its GTM workflows make it irreplaceable for sales outreach and social. Don't use it for long articles — for everything short and punchy, nothing is faster.</p></div></div>`},
   notion:{icon:'📝',name:'Notion AI',tag:'Why it beats standalone tools for workspace productivity',body:`<div class="ms"><div class="ms-title">Why Notion AI beats copy-pasting to ChatGPT</div><div class="vs-grid"><div class="vs-card vs-w"><div class="vs-label">✦ Notion AI Wins</div><div class="vs-name">Notion AI</div><ul class="vs-pts"><li>Zero context switching — AI lives inside your workspace</li><li>Knows your existing docs — ask AI about your own notes</li><li>One-click: summarize, improve, translate any block</li><li>Meeting notes → action items → tasks in seconds</li><li>$8/mo add-on vs $20/mo separate subscription</li></ul></div><div class="vs-card vs-l"><div class="vs-label">The copy-paste problem</div><div class="vs-name">ChatGPT alone</div><ul class="vs-pts"><li>Copy content in and out every single time</li><li>No access to your existing notes and context</li><li>Results need manual formatting back into your workspace</li><li>Constant tab-switching breaks every workflow</li></ul></div></div></div><div class="ms"><div class="ms-title">Best Use Cases</div><div class="use-pills"><span class="use-pill">Meeting Notes</span><span class="use-pill">Project Summaries</span><span class="use-pill">Doc Editing</span><span class="use-pill">Team Wikis</span><span class="use-pill">Task Generation</span></div></div><div class="ms"><div class="ms-title">Pro Tip</div><div class="pro-tip-box"><div class="pro-tip-lbl">💡 Insider</div><p>After every meeting, paste the raw transcript into a Notion page and hit "Summarize," then "Extract action items." In 10 seconds you have a structured post-meeting doc. Nobody on your team needs to take manual notes again.</p></div></div><div class="ms"><div class="ms-title">Final Verdict</div><div class="verdict-box"><div class="verdict-title">🏆 Best Embedded AI for Notion Users</div><p>Notion AI doesn\'t try to be the most powerful AI writer — it\'s the most frictionless one. If you live in Notion, this $8 add-on pays for itself the first week. If you\'re not a Notion user, the standalone tools are better choices.</p></div></div>`},
   surfer:{icon:'🌐',name:'Surfer SEO + AI',tag:'Why it dominates Frase and Clearscope for rankings',body:`<div class="ms"><div class="ms-title">Why Surfer beats Frase for ranking content</div><div class="vs-grid"><div class="vs-card vs-w"><div class="vs-label">✦ Surfer Wins</div><div class="vs-name">Surfer SEO</div><ul class="vs-pts"><li>Real-time Content Score updates as you type — instant ranking feedback</li><li>NLP keywords from actual top-ranking pages, not guesses</li><li>AI article writer that hits keyword density automatically</li><li>Topical Map builds entire content clusters from one keyword</li><li>Google Docs integration — optimize without leaving your editor</li></ul></div><div class="vs-card vs-l"><div class="vs-label">Frase falls behind</div><div class="vs-name">Frase.io</div><ul class="vs-pts"><li>Content score less sophisticated, slower to update</li><li>No real-time typing feedback — manual score checks</li><li>Weaker at full article generation</li><li>No native Google Docs integration</li></ul></div></div></div><div class="ms"><div class="ms-title">Best Use Cases</div><div class="use-pills"><span class="use-pill">SEO Blog Posts</span><span class="use-pill">Content Strategy</span><span class="use-pill">Topical Clusters</span><span class="use-pill">Rank Optimization</span><span class="use-pill">Agency Scaling</span></div></div><div class="ms"><div class="ms-title">Pro Tip</div><div class="pro-tip-box"><div class="pro-tip-lbl">💡 Insider</div><p>Don't just write one article. Use the Topical Map to generate a 20-article cluster around your main keyword. Google rewards topical authority — a cluster of 20 interconnected articles outranks a single perfect article almost every time.</p></div></div><div class="ms"><div class="ms-title">Final Verdict</div><div class="verdict-box"><div class="verdict-title">🏆 Best for Serious SEO at Scale</div><p>The real-time Content Score alone changes how you write — you can literally watch your article become more rankable with each paragraph. Worth every penny for content-focused businesses.</p></div></div>`},
-  writesonic:{icon:'🚀',name:'Writesonic',tag:'Best budget alternative to Jasper with real-time web search',body:`<div class="ms"><div class="ms-title">Why Writesonic beats Jasper for value</div><div class="vs-grid"><div class="vs-card vs-w"><div class="vs-label">✦ Writesonic Wins</div><div class="vs-name">Writesonic</div><ul class="vs-pts"><li>From $16/mo vs Jasper\'s $49/mo — 3× cheaper for similar quality</li><li>10,000 free words — real testing before buying</li><li>Chatsonic has live web search (unlike base Jasper)</li><li>AI Article Writer 6.0 produces full SEO posts in one click</li><li>30+ language support — better multilingual than Jasper</li></ul></div><div class="vs-card vs-l"><div class="vs-label">Jasper\'s cost disadvantage</div><div class="vs-name">Jasper</div><ul class="vs-pts"><li>$49/month minimum to even test properly</li><li>No meaningful free tier</li><li>Requires add-ons for live web access</li><li>Fewer multilingual templates</li></ul></div></div></div><div class="ms"><div class="ms-title">Best Use Cases</div><div class="use-pills"><span class="use-pill">Budget Startups</span><span class="use-pill">Multilingual Brands</span><span class="use-pill">News Content</span><span class="use-pill">Blog Articles</span><span class="use-pill">Freelancers</span></div></div><div class="ms"><div class="ms-title">Pro Tip</div><div class="pro-tip-box"><div class="pro-tip-lbl">💡 Insider</div><p>Use Chatsonic for news-based content — ask it to write an expert take on today's trending topic and it browses the web in real time. You create timely content that ChatGPT's standard mode simply can't produce without a plugin.</p></div></div><div class="ms"><div class="ms-title">Final Verdict</div><div class="verdict-box"><div class="verdict-title">🏆 Best Budget AI Writer That Doesn't Feel Budget</div><p>Writesonic punches well above its price point. For freelancers, early-stage startups, and anyone who wants Jasper-level output without the Jasper price tag, this is the move.</p></div></div>`},
+  writesonic:{icon:'🚀',name:'Writesonic',tag:'Best budget alternative to Jasper with real-time web search',body:`<div class="ms"><div class="ms-title">Why Writesonic beats Jasper for value</div><div class="vs-grid"><div class="vs-card vs-w"><div class="vs-label">✦ Writesonic Wins</div><div class="vs-name">Writesonic</div><ul class="vs-pts"><li>From $16/mo vs Jasper\'s $49/mo — 3× cheaper for similar quality</li><li>10,000 free words — real testing before buying</li><li>Chatsonic has live web search (unlike base Jasper)</li><li>AI Article Writer 6.0 produces full SEO posts in one click</li><li>30+ language support — better multilingual than Jasper</li></ul></div><div class="vs-card vs-l"><div class="vs-label">Jasper\'s cost disadvantage</div><div class="vs-name">Jasper</div><ul class="vs-pts"><li>$49/month minimum to even test properly</li><li>No meaningful free tier</li><li>Requires add-ons for live web access</li><li>Fewer multilingual templates</li></ul></div></div></div><div class="ms"><div class="ms-title">Best Use Cases</div><div class="use-pills"><span class="use-pill">Budget Startups</span><span class="use-pill">Multilingual Brands</span><span class="use-pill">News Content</span><span class="use-pill">Blog Articles</span><span class="use-pill">Freelancers</span></div></div><div class="ms"><div class="ms-title">Pro Tip</div><div class="pro-tip-box"><div class="pro-tip-lbl">💡 Insider</div><p>Use Chatsonic for news-based content — ask it to write an expert take on today's trending topic and it browses the web in real time. You create timely content that ChatGPT's standard mode simply can\'t produce without a plugin.</p></div></div><div class="ms"><div class="ms-title">Final Verdict</div><div class="verdict-box"><div class="verdict-title">🏆 Best Budget AI Writer That Doesn't Feel Budget</div><p>Writesonic punches well above its price point. For freelancers, early-stage startups, and anyone who wants Jasper-level output without the Jasper price tag, this is the move.</p></div></div>`},
   frase:{icon:'📊',name:'Frase.io',tag:'Best research-first SEO writing tool',body:`<div class="ms"><div class="ms-title">Why Frase beats Surfer for content research</div><div class="vs-grid"><div class="vs-card vs-w"><div class="vs-label">✦ Frase Wins</div><div class="vs-name">Frase.io</div><ul class="vs-pts"><li>Deepest competitor content analysis — reads all top 20 results</li><li>Auto-generates content briefs with competitor data</li><li>Question research pulls real questions from Google and Reddit</li><li>Starting at $15/mo — 6× cheaper than Surfer</li><li>Better for research-first teams before writing begins</li></ul></div><div class="vs-card vs-l"><div class="vs-label">Surfer falls short here</div><div class="vs-name">Surfer SEO</div><ul class="vs-pts"><li>Weaker on deep competitor content gap analysis</li><li>Content briefs less detailed for writer handoffs</li><li>PAA research less comprehensive</li><li>$89/mo hard to justify for research-only use</li></ul></div></div></div><div class="ms"><div class="ms-title">Best Use Cases</div><div class="use-pills"><span class="use-pill">Content Briefs</span><span class="use-pill">SEO Research</span><span class="use-pill">Agency Handoffs</span><span class="use-pill">Topic Research</span><span class="use-pill">Competitor Gaps</span></div></div><div class="ms"><div class="ms-title">Pro Tip</div><div class="pro-tip-box"><div class="pro-tip-lbl">💡 Insider</div><p>Use Frase to build the brief, then export to Claude or ChatGPT to write the article. This two-tool combo beats any single tool — Frase gives you the research skeleton, a powerful LLM fills it with quality prose. Under $25/mo total.</p></div></div><div class="ms"><div class="ms-title">Final Verdict</div><div class="verdict-box"><div class="verdict-title">🏆 Best Budget SEO Research Tool</div><p>Frase is the tool SEO agencies use for writer handoffs. At $15/mo it\'s the most affordable professional-grade content research available. Use it as the research phase of a two-step workflow.</p></div></div>`},
   sora:{icon:'🎬',name:'Sora by OpenAI',tag:'The biggest leap forward in AI video generation',body:`<div class="ms"><div class="ms-title">Why Sora beats Runway Gen-3 for photorealism</div><div class="vs-grid"><div class="vs-card vs-w"><div class="vs-label">✦ Sora Wins</div><div class="vs-name">Sora</div><ul class="vs-pts"><li>Understands physics — objects interact with environments naturally</li><li>Consistent characters and settings across longer clips</li><li>Up to 60 seconds vs Runway\'s 18-second limit</li><li>Multiple characters interacting in one coherent scene</li><li>Narrative-level prompt interpretation, not just visual description</li></ul></div><div class="vs-card vs-l"><div class="vs-label">Runway falls behind</div><div class="vs-name">Runway Gen-3</div><ul class="vs-pts"><li>Physics breaks down in complex multi-object scenes</li><li>Character consistency struggles across multiple shots</li><li>18-second maximum limits storytelling</li><li>Multi-character scenes often produce artifacts</li></ul></div></div></div><div class="ms"><div class="ms-title">Best Use Cases</div><div class="use-pills"><span class="use-pill">Brand Films</span><span class="use-pill">Concept Videos</span><span class="use-pill">Ad Creative</span><span class="use-pill">Cinematic Promos</span><span class="use-pill">Storyboarding</span></div></div><div class="ms"><div class="ms-title">Pro Tip</div><div class="pro-tip-box"><div class="pro-tip-lbl">💡 Insider</div><p>Write Sora prompts like a cinematographer. Specify: shot type (extreme close-up), lighting (golden hour backlight), camera movement (slow dolly-in), mood (tense, quiet), and texture detail. Cinematic language = cinematic output.</p></div></div><div class="ms"><div class="ms-title">Final Verdict</div><div class="verdict-box"><div class="verdict-title">🏆 Most Technically Advanced Text-to-Video Model</div><p>Sora represents a genuine step-change in what AI video can do. No other model matches its understanding of physics, narrative continuity, and visual realism. It's not a better tool — it\'s a different category of tool entirely.</p></div></div>`},
   heygen:{icon:'👤',name:'HeyGen',tag:'Best AI avatar and video translation platform',body:`<div class="ms"><div class="ms-title">Why HeyGen beats Synthesia for AI presenters</div><div class="vs-grid"><div class="vs-card vs-w"><div class="vs-label">✦ HeyGen Wins</div><div class="vs-name">HeyGen</div><ul class="vs-pts"><li>Voice cloning is more natural — less robotic cadence</li><li>Instant avatar from a 2-minute video — no weeks of waiting</li><li>40+ language dubbing with lip-sync that actually matches</li><li>Video translation: upload any video, get it dubbed in 40 languages</li><li>More affordable entry pricing for individual creators</li></ul></div><div class="vs-card vs-l"><div class="vs-label">Synthesia's weaknesses</div><div class="vs-name">Synthesia</div><ul class="vs-pts"><li>Custom avatar requires enterprise contract and weeks of lead time</li><li>Voice cloning sounds more synthetic and robotic</li><li>Priced for enterprise, not individual creators</li><li>Video translation less accurate on lip-sync</li></ul></div></div></div><div class="ms"><div class="ms-title">Best Use Cases</div><div class="use-pills"><span class="use-pill">Training Videos</span><span class="use-pill">Sales Outreach</span><span class="use-pill">Product Demos</span><span class="use-pill">Multilingual Content</span><span class="use-pill">Faceless YouTube</span></div></div><div class="ms"><div class="ms-title">Pro Tip</div><div class="pro-tip-box"><div class="pro-tip-lbl">💡 Insider</div><p>Use Video Translation on your top-performing English YouTube video. Select 5 languages, publish 5 new localized versions in under an hour. Each translated video opens an entirely new audience with zero extra filming.</p></div></div><div class="ms"><div class="ms-title">Final Verdict</div><div class="verdict-box"><div class="verdict-title">🏆 Best AI Avatar & Video Translation Tool</div><p>HeyGen has made professional talking-head video accessible to anyone. The video translation feature alone is worth the subscription for any creator with a multilingual audience.</p></div></div>`},
@@ -2090,6 +2414,171 @@ document.addEventListener('keydown', e => {
     document.body.style.overflow = '';
   }
 });
+</script>
+
+
+<script>
+// ── DAILY PULSE ──
+const PULSE_TOOLS = [
+  {name:'ChatGPT / GPT-4o',  verdict:'If you only ever use one AI tool, make it this one.',  modal:'chatgpt'},
+  {name:'Claude (Anthropic)', verdict:'The most trustworthy AI writer — it never makes things up.', modal:'claude'},
+  {name:'Sora by OpenAI',     verdict:'The first AI video tool that actually looks cinematic.',   modal:'sora'},
+  {name:'HeyGen',             verdict:'Clone your face and voice — make videos in 40 languages.',  modal:'heygen'},
+  {name:'Surfer SEO',         verdict:'Watch your article become more rankable in real-time.',     modal:'surfer'},
+  {name:'Opus Clip',          verdict:'1 long video in, 10 viral clips out — automatically.',      modal:'opusclip'},
+  {name:'Jasper AI',          verdict:'The enterprise-grade brand voice machine for teams.',        modal:'jasper'},
+];
+function initPulse(){
+  const day = Math.floor(Date.now()/86400000);
+  const t = PULSE_TOOLS[day % PULSE_TOOLS.length];
+  document.getElementById('pulseToolName').textContent = t.name;
+  document.getElementById('pulseVerdict').textContent = t.verdict;
+  document.getElementById('pulseCTA').setAttribute('onclick', "openModal('" + t.modal + "')");
+  updateCountdown();
+  setInterval(updateCountdown, 1000);
+}
+function updateCountdown(){
+  const now = new Date();
+  const next = new Date(now);
+  next.setDate(next.getDate()+1);
+  next.setHours(0,0,0,0);
+  const diff = next - now;
+  const h = String(Math.floor(diff/3600000)).padStart(2,'0');
+  const m = String(Math.floor((diff%3600000)/60000)).padStart(2,'0');
+  const s = String(Math.floor((diff%60000)/1000)).padStart(2,'0');
+  const el = document.getElementById('pulseCountdown');
+  if(el) el.textContent = h+':'+m+':'+s;
+}
+initPulse();
+
+// ── USER TYPE MODAL DATA ──
+const UT_DATA = {
+  solopreneur: {
+    emoji:'🚀', title:'The Solopreneur Starter Pack',
+    intro:'You\'re a one-person business. You need maximum output for minimum cost and zero complexity. Here is your exact AI stack.',
+    tools:[
+      {name:'ChatGPT Plus', role:'Your main writer', why:'Write everything — emails, blogs, captions, scripts. $20/mo. Start here.', price:'$20/mo', url:'https://chat.openai.com', aff:true},
+      {name:'Copy.ai Free', role:'Quick sales copy', why:'Cold emails, product descriptions, social captions in seconds. Free tier is enough to start.', price:'Free', url:'https://www.copy.ai', aff:true},
+      {name:'Opus Clip', role:'Video repurposing', why:'Record one video a week. Opus turns it into 10 short-form clips automatically.', price:'$19/mo', url:'https://www.opus.pro', aff:true},
+      {name:'Notion AI', role:'Your second brain', why:'All your notes, docs, and meeting summaries — with AI built right in.', price:'$8/mo add-on', url:'https://www.notion.so', aff:true},
+    ],
+    total:'~$47/month',
+    tip:'Start with just ChatGPT free. Only upgrade when you\'re spending more than 2 hours a week on writing.',
+  },
+  artist: {
+    emoji:'🎨', title:'The Prompt Artist Galaxy',
+    intro:'You push AI to its creative limits. Aesthetics, originality, and visual impact matter more than cost efficiency.',
+    tools:[
+      {name:'Sora (ChatGPT Pro)', role:'Cinematic video generation', why:'Text-to-60-second photorealistic video. Nothing else comes close for visual storytelling.', price:'$200/mo', url:'https://openai.com/sora', aff:true},
+      {name:'Runway Gen-3', role:'Creative video editing', why:'Motion brush, inpainting, style transfer. Frame-accurate control over AI-generated footage.', price:'$28/mo', url:'https://runwayml.com', aff:true},
+      {name:'Midjourney V6', role:'Image generation', why:'The gold standard for artistic AI imagery. No other model produces images this stunning.', price:'$30/mo', url:'https://www.midjourney.com', aff:false},
+      {name:'ElevenLabs', role:'Voice & audio', why:'Clone any voice, generate music, create cinematic soundscapes. The audio layer for your visuals.', price:'$22/mo', url:'https://elevenlabs.io', aff:true},
+    ],
+    total:'~$280/month',
+    tip:'Start with just Midjourney + Runway ($58/mo total) before upgrading to the full Sora Pro stack.',
+  },
+  student: {
+    emoji:'📚', title:'The Student Study Orbit',
+    intro:'You need research help, essay support, and note organization — mostly free or very cheap. Here\'s what actually works.',
+    tools:[
+      {name:'Claude (Free)', role:'Research & long-form writing', why:'200K context window — paste entire textbooks and ask questions. Best free AI for academic work.', price:'Free', url:'https://claude.ai', aff:false},
+      {name:'ChatGPT (Free)', role:'Brainstorming & quick answers', why:'Unlimited GPT-3.5 free forever. Great for concept explanations and first drafts.', price:'Free', url:'https://chat.openai.com', aff:false},
+      {name:'Notion AI', role:'Note-taking & summaries', why:'Summarize lecture notes, create study guides, generate flashcards from any text.', price:'$8/mo', url:'https://www.notion.so', aff:true},
+      {name:'Frase.io Solo', role:'Research & essay structure', why:'Analyzes top sources on any topic and builds a research-backed outline automatically.', price:'$15/mo', url:'https://www.frase.io', aff:true},
+    ],
+    total:'$0–$23/month',
+    tip:'Honestly? Start with 100% free tools (Claude + ChatGPT free tiers) until you feel the limits. Most students never need more.',
+  },
+  marketer: {
+    emoji:'📣', title:'The Marketer Growth Engine',
+    intro:'You need branded content at volume — and every piece needs to convert. Here\'s the stack that does that.',
+    tools:[
+      {name:'Jasper AI Teams', role:'Brand voice engine', why:'Train Jasper on your brand voice once. Every writer on your team produces on-brand content forever.', price:'$125/mo', url:'https://www.jasper.ai', aff:true},
+      {name:'Surfer SEO Scale', role:'Content that ranks', why:'Real-time NLP optimization as you write. The only tool that guarantees your content gets found.', price:'$129/mo', url:'https://surferseo.com', aff:true},
+      {name:'HeyGen Creator', role:'Video ads & explainers', why:'Turn any script into a professional talking-head video in 40+ languages. No camera needed.', price:'$29/mo', url:'https://www.heygen.com', aff:true},
+      {name:'Copy.ai Pro', role:'Sales copy at scale', why:'GTM workflows, email sequences, product descriptions — all on brand, all in minutes.', price:'$49/mo', url:'https://www.copy.ai', aff:true},
+    ],
+    total:'~$332/month',
+    tip:'This stack pays for itself with a single new client or one high-converting campaign. ROI is usually seen in week 2.',
+  },
+  youtuber: {
+    emoji:'🎬', title:'The Content Creator Video Universe',
+    intro:'One recording session. Thirty pieces of content. Across every platform. This is how the top creators are doing it.',
+    tools:[
+      {name:'Opus Clip Starter', role:'Long video → 10 viral clips', why:'The most important tool for any video creator. Virality Score picks your best moments automatically.', price:'$19/mo', url:'https://www.opus.pro', aff:true},
+      {name:'HeyGen Creator', role:'Faceless videos & dubbing', why:'Create talking-head content without being on camera. Or dub your existing videos into 40 languages.', price:'$29/mo', url:'https://www.heygen.com', aff:true},
+      {name:'Pictory Professional', role:'Blog posts → YouTube videos', why:'Turn every article you\'ve ever written into a video. Your writing archive becomes a YouTube channel.', price:'$47/mo', url:'https://pictory.ai', aff:true},
+      {name:'ChatGPT Plus', role:'Scripts & captions', why:'Write YouTube scripts, video descriptions, hashtags, and community posts in minutes.', price:'$20/mo', url:'https://chat.openai.com', aff:false},
+    ],
+    total:'~$115/month',
+    tip:'Start with just Opus Clip ($19/mo). It alone can 10× your short-form output from content you\'re already making.',
+  },
+  agency: {
+    emoji:'🏢', title:'The Agency Power Stack',
+    intro:'You have clients, brand guidelines, and deadlines. Every tool here is enterprise-grade and built for team workflows.',
+    tools:[
+      {name:'Jasper AI Teams', role:'Multi-brand content engine', why:'Multiple brand voices, role-based permissions, and team analytics. The agency-grade writing platform.', price:'$125/mo', url:'https://www.jasper.ai', aff:true},
+      {name:'Surfer SEO Scale', role:'White-label SEO reports', why:'100 articles/month, Topical Authority Map, and white-label client reports. Built for agencies.', price:'$129/mo', url:'https://surferseo.com', aff:true},
+      {name:'HeyGen Business', role:'Video at agency scale', why:'5 custom avatars, unlimited credits, API access, and batch video creation for clients.', price:'$89/mo', url:'https://www.heygen.com', aff:true},
+      {name:'Claude Teams', role:'Deep research & documents', why:'200K context, team workspace, no data training on your client work. The professional choice.', price:'$30/user/mo', url:'https://claude.ai', aff:false},
+    ],
+    total:'~$373+/month',
+    tip:'Even at $373/month, replacing one junior writer ($4,000+/mo) more than justifies the entire stack. The ROI is not even close.',
+  },
+};
+
+function openUserTypeModal(key){
+  const d = UT_DATA[key];
+  if(!d) return;
+  const toolRows = d.tools.map(t=>`
+    <div style="background:rgba(255,255,255,.02);border:1px solid rgba(255,255,255,.07);padding:16px 18px;border-radius:3px;margin-bottom:8px;">
+      <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:6px;">
+        <div>
+          <span style="font-family:Bebas Neue,sans-serif;font-size:1.2rem;letter-spacing:1px;">${t.name}</span>
+          ${t.aff ? '<span class="aff-badge">affiliate link</span>' : ''}
+        </div>
+        <span style="font-family:Space Mono,monospace;font-size:.72rem;color:var(--fire3);">${t.price}</span>
+      </div>
+      <div style="font-size:.7rem;letter-spacing:3px;text-transform:uppercase;color:var(--fire2);margin-bottom:6px;">${t.role}</div>
+      <div style="font-size:.85rem;font-weight:300;color:var(--muted);line-height:1.5;margin-bottom:10px;">${t.why}</div>
+      <button onclick="goToTool('${t.url}','${t.name}')" style="font-size:.62rem;letter-spacing:2px;text-transform:uppercase;background:rgba(255,80,0,.08);border:1px solid rgba(255,80,0,.25);color:var(--fire2);padding:6px 14px;border-radius:2px;cursor:pointer;font-family:Barlow Condensed,sans-serif;transition:all .2s;">
+        Visit ${t.name} →
+      </button>
+    </div>
+  `).join('');
+
+  document.getElementById('mIcon').textContent = d.emoji;
+  document.getElementById('mName').textContent = d.title;
+  document.getElementById('mTag').textContent = 'Total stack: ' + d.total;
+  document.getElementById('mBody').innerHTML = `
+    <p style="font-size:.92rem;font-weight:300;color:var(--muted);line-height:1.65;margin-bottom:24px;padding-bottom:20px;border-bottom:1px solid rgba(255,255,255,.06);">${d.intro}</p>
+    <div style="margin-bottom:20px;">${toolRows}</div>
+    <div style="background:rgba(255,215,0,.04);border:1px solid rgba(255,215,0,.15);border-left:3px solid var(--fire3);padding:14px 18px;border-radius:0 3px 3px 0;">
+      <div style="font-size:.58rem;letter-spacing:3px;text-transform:uppercase;color:var(--fire3);margin-bottom:5px;">💡 Pro Tip</div>
+      <p style="font-size:.88rem;font-weight:300;color:var(--muted);line-height:1.6;">${d.tip}</p>
+    </div>
+  `;
+  document.getElementById('modalOv').classList.add('open');
+  document.body.style.overflow='hidden';
+}
+
+// ── SUBMIT TOOL FORM ──
+function submitTool(){
+  const name=document.getElementById('sfName').value.trim();
+  const email=document.getElementById('sfEmail').value.trim();
+  const url=document.getElementById('sfUrl').value.trim();
+  const cat=document.getElementById('sfCat').value;
+  if(!name||!email||!url||!cat){showToast('⚠️ Please fill in all fields');return;}
+  if(!email.includes('@')){showToast('⚠️ Please enter a valid email');return;}
+  // In production, replace with your actual form endpoint (Formspree, Netlify Forms, etc.)
+  // For now, open a mailto link as fallback
+  const subject=encodeURIComponent('Tool Submission: '+name);
+  const body=encodeURIComponent('Tool Name: '+name+'\nEmail: '+email+'\nWebsite: '+url+'\nCategory: '+cat);
+  window.open('mailto:contact@explosive-ai.com?subject='+subject+'&body='+body);
+  document.getElementById('submitForm').style.display='none';
+  document.getElementById('submitSuccess').style.display='block';
+  showToast('🚀 Submission sent!');
+}
 </script>
 
 </body>
